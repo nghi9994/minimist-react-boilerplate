@@ -1,7 +1,7 @@
-import { Container } from "@chakra-ui/react";
+import { AppContainer } from "@/components";
 
 function App() {
-  return <Container>App</Container>;
+  return <AppContainer>App</AppContainer>;
 }
 
 export default App;

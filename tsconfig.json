@@ -13,13 +13,12 @@
     "isolatedModules": false,
     "noEmit": true,
     "jsx": "react-jsx",
-    "declaration": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "declarationMap": true,
+    // "declaration": true,
+    // "declarationMap": true,
     "baseUrl": ".",
     "paths": {
-      "minimist-react-library": ["src/index.ts"],
       "@/*": ["src/*"]
     },
     "typeRoots": ["node_modules/@types", "src/index.d.ts"]
